@@ -17,7 +17,7 @@ function App() {
           <p>Sync your clipboard history across multiple devices</p>
           <p>never worry about typing every word into your phone again</p>
           <button className="p-2 pl-4 pr-5 rounded-full bg-orange-400 mt-3 text-white">
-            Sign Me Up
+            Waitlist
           </button>
         </div>
       </div>
