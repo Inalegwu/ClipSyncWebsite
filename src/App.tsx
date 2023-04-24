@@ -1,10 +1,8 @@
-import React from "react";
-
 function App() {
   return (
     <>
-      <div className="w-[50vh] h-[50vh] bg-orange-400 absolute z-0 rounded-full" />
-      <div className="w-[60vh] h-[60vh] bg-orange-400 absolute z-0 rounded-full left-[70%] top-[90vh]" />
+      <div className="w-[50vh] h-[50vh] bg-orange-400 absolute z-0 rounded-full left-[40%]" />
+      <div className="w-full h-40 bg-orange-400 absolute z-0 rounded-full top-[90%]" />
       <nav className="w-full h-[5vh] lg:h-[8vh] md:h-[8vh] absolute z-10 bg-transparent backdrop-blur-3xl flex items-center content-center justify-between p-5">
         <h1 className="font-bold">
           Clip<span className="text-orange-400">Sync</span>
