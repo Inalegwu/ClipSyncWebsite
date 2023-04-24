@@ -5,11 +5,11 @@ function App() {
   const [modalVisible, setModalVisible] = React.useState<boolean>(false);
   return (
     <>
-      <div className="w-[50vh] h-[50vh] bg-orange-400 absolute z-0 rounded-full left-[40%]" />
-      <div className="w-full h-40 bg-orange-400 absolute z-0 rounded-full top-[90%]" />
+      <div className="w-[50vh] h-[50vh] bg-brand absolute z-0 rounded-full left-[40%]" />
+      <div className="w-full h-40 bg-brand absolute z-0 rounded-full top-[90%]" />
       <nav className="w-full h-[5vh] lg:h-[8vh] md:h-[8vh] absolute z-20 bg-transparent backdrop-blur-3xl flex items-center content-center justify-between p-5">
         <h1 className="font-bold">
-          Clip<span className="text-orange-400">Sync</span>
+          Clip<span className="text-brand">Sync</span>
         </h1>
       </nav>
       <div
@@ -17,12 +17,12 @@ function App() {
         style={{ backdropFilter: "blur(250px)" }}
       >
         <div className="lg:p-10 md:p-10 w-full h-full md:h-full md:w-full lg:w-full flex flex-col items-center content-center lg:items-start lg:content-start justify-center text-center md:text-start lg:text-start">
-          <h1 className="font-bold text-5xl text-orange-400 mb-2">ClipSync</h1>
+          <h1 className="font-bold text-5xl text-brand mb-2">ClipSync</h1>
           <p>Sync your clipboard history across multiple devices</p>
           <p>never worry about typing every word into your phone again</p>
           <button
             onClick={() => setModalVisible(true)}
-            className="p-2 pl-4 pr-5 rounded-full bg-orange-400 mt-3 text-white"
+            className="p-2 pl-4 pr-5 rounded-full bg-brand mt-3 text-white"
           >
             Waitlist
           </button>
@@ -34,7 +34,7 @@ function App() {
             <div className="bg-white rounded-md p-4 w-5/6 h-2/6 lg:w-2/6 lg:h-2/6 md:w-2/6 md:h-4/6 m-auto flex flex-col">
               <div className="flex items-center content-center justify-end h-[10%]">
                 <button
-                  className="text-orange-400"
+                  className="text-brand"
                   onClick={() => setModalVisible(false)}
                 >
                   <FiX />
@@ -48,7 +48,7 @@ function App() {
                   placeholder="Email"
                 />
                 <button
-                  className="w-full rounded-md bg-orange-400 p-2 text-white"
+                  className="w-full rounded-md bg-brand p-2 text-white"
                   type="submit"
                 >
                   Join Waitlist
